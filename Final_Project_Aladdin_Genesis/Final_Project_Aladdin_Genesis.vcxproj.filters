@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{8b4b7dbd-aa02-4057-b5eb-6e03eb12ef3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{2da2d041-770f-49e5-abca-4f1951933eeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Camera">
+      <UniqueIdentifier>{4dd8d96c-b738-418d-a689-d42a1bb0f616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Aladdin">
+      <UniqueIdentifier>{ece56df6-1390-41b4-91dd-b4d84b2da9bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Directx">
+      <UniqueIdentifier>{e3c8ab3c-7a2f-40eb-98c7-5abda5bf1018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\ReadXML">
+      <UniqueIdentifier>{277cdd2d-de8f-4f97-a35a-5bbe7d325f6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Collision">
+      <UniqueIdentifier>{0170d094-6db3-487a-980a-a0bfcd1716d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\QuadTree">
+      <UniqueIdentifier>{0c82ce3f-78a3-4beb-b06f-1189e6852589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Map">
+      <UniqueIdentifier>{9c495424-a611-4763-a1dd-6bbaecc84586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\BaseObject">
+      <UniqueIdentifier>{46758610-140e-46cb-a4f5-93a348279bef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Ground">
+      <UniqueIdentifier>{6a0c912c-b727-4a30-aa72-b8db8508cd3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Rope">
+      <UniqueIdentifier>{5f45309f-e364-45a7-be2c-885681c9f301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\CollarBeam">
+      <UniqueIdentifier>{6a27433b-6d10-49b2-a776-6e3deeba1302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Camel">
+      <UniqueIdentifier>{714d6506-03ee-4b8c-b6fd-1360af4adfff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Apple">
+      <UniqueIdentifier>{a274ea4d-a1c6-41b0-9064-2bbcf3f10333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Trace">
+      <UniqueIdentifier>{72db0bb8-db65-47cc-806b-d30bcb4ff006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Sprite">
+      <UniqueIdentifier>{f0ddc82e-df71-4211-99c0-6474e2a7ff75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\TextureManager">
+      <UniqueIdentifier>{cfd203f3-b1b0-4521-9e79-42005c83b151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Game">
+      <UniqueIdentifier>{4bd8e0fc-cfb5-42c7-a741-b9dc1d0db934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Rod">
+      <UniqueIdentifier>{6fbce4f3-170f-4039-9c47-15168327d8c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Items">
+      <UniqueIdentifier>{e71aece6-f8f6-4ac5-a93e-2ef3472f6c3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Enemies">
+      <UniqueIdentifier>{3edb71f2-20e0-485e-a34d-58f87b236c4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Enemies\Sword">
+      <UniqueIdentifier>{020b9384-7051-4897-8fa3-f8e530c193aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Enemies\Guards">
+      <UniqueIdentifier>{349e9449-3326-4957-aa31-d4f374e412f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Enemies\Guards\Guard1">
+      <UniqueIdentifier>{8b4222af-d716-4713-86fe-b9c3d8eb95bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Enemies\Guards\Guard2">
+      <UniqueIdentifier>{9f7e167d-fcd7-47e0-8972-993359755514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Enemies\Guards\Guard3">
+      <UniqueIdentifier>{6aeac2f0-28f2-4056-a739-9cbfbb44aabf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Enemies\CivilianEnemies">
+      <UniqueIdentifier>{f27a11c4-0a97-49e9-9fe0-d1825fe87880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Enemies\CivilianEnemies\Swordsman">
+      <UniqueIdentifier>{36849216-dc96-47d5-823b-d1ba8e3fcd8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Items\Ruby">
+      <UniqueIdentifier>{e5376a5c-edd2-402a-ae2a-8790b886afc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Items\Lamp">
+      <UniqueIdentifier>{6a6522b3-1c71-432c-aea1-b78bf3a3ff70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Items\GenieJar">
+      <UniqueIdentifier>{10ea0633-cb4d-4968-88de-6cf16403b215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Items\GenieFace">
+      <UniqueIdentifier>{d66358ee-3e6b-4f72-9de4-0d5cdc8f77f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Items\BlueHeart">
+      <UniqueIdentifier>{cc4735dd-f95b-49c6-8875-d023db9d5a76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Enemies\CivilianEnemies\Theft">
+      <UniqueIdentifier>{0e7042b4-2a97-4a48-aa27-7d703dc0309d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\FireCarpet">
+      <UniqueIdentifier>{fef26d64-9499-4ae0-bef1-4748ddd30b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Ground\FallingGround">
+      <UniqueIdentifier>{0f63117c-aa21-4733-877e-ee04a910503b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\QuadTree\QuadNode">
+      <UniqueIdentifier>{39e5a4c4-5a02-4481-87fb-6fd4904781f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Enemies\Boss">
+      <UniqueIdentifier>{3c1f5114-fbfb-4ff0-9466-c0017a9b3336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Star">
+      <UniqueIdentifier>{ae5f58ec-729d-4245-b692-08926fceacc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Enemies\Fire">
+      <UniqueIdentifier>{5185ecf5-df9a-4f13-a355-7a126f4383b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\BloodBar">
+      <UniqueIdentifier>{997a512f-3bcd-4dc2-b21f-698ae70350ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Items\AladdinFace">
+      <UniqueIdentifier>{3fac1e6d-0379-4d13-a2b5-7a0883089e51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Enemies\CivilianEnemies\JarThrower">
+      <UniqueIdentifier>{aedd7e37-3676-4421-8410-22888cf8979c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Enemies\CivilianEnemies\Jar">
+      <UniqueIdentifier>{95bcef01-a5bc-4a08-8a45-0da760c66a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Camel\Spittle">
+      <UniqueIdentifier>{7a84d4e3-5b9a-4bea-8057-cb6906c11cb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Items\AbuItem">
+      <UniqueIdentifier>{2cff4213-ec2c-4ae4-88d7-bc7b247b37c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Abu">
+      <UniqueIdentifier>{4e48d873-01b7-4c7a-8fe6-14080e98d43b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Genie">
+      <UniqueIdentifier>{c91f4a3f-59a6-4bb8-8db7-aeccfad7ba32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Bird">
+      <UniqueIdentifier>{65d35482-578b-44bf-a372-65ca6c216a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Scene">
+      <UniqueIdentifier>{8a208a19-787a-41aa-b77e-65bccc37e5c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Knives">
+      <UniqueIdentifier>{89592d7a-24d7-4a27-82bb-9ef1a846e035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Sound">
+      <UniqueIdentifier>{76209ea6-4605-4720-b908-da998ca48cc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Sound\GameSound">
+      <UniqueIdentifier>{2cacad30-a4ae-4378-ac76-654fd51ff42d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Sound\WaveFile">
+      <UniqueIdentifier>{50d23edb-11f1-49f2-adf2-e552862ba28c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="winmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>FrameWork\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Aladdin.cpp">
+      <Filter>GameObject\Aladdin</Filter>
+    </ClCompile>
+    <ClCompile Include="Directx.cpp">
+      <Filter>FrameWork\Directx</Filter>
+    </ClCompile>
+    <ClCompile Include="readXML.cpp">
+      <Filter>FrameWork\ReadXML</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>FrameWork\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>FrameWork\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Quadtree.cpp">
+      <Filter>FrameWork\QuadTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject.cpp">
+      <Filter>GameObject\BaseObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>FrameWork\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>GameObject\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>FrameWork\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Rope.cpp">
+      <Filter>GameObject\Rope</Filter>
+    </ClCompile>
+    <ClCompile Include="CollarBeam.cpp">
+      <Filter>GameObject\CollarBeam</Filter>
+    </ClCompile>
+    <ClCompile Include="Camel.cpp">
+      <Filter>GameObject\Camel</Filter>
+    </ClCompile>
+    <ClCompile Include="trace.cpp">
+      <Filter>FrameWork\Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="Guard1.cpp">
+      <Filter>GameObject\Enemies\Guards\Guard1</Filter>
+    </ClCompile>
+    <ClCompile Include="Guard2.cpp">
+      <Filter>GameObject\Enemies\Guards\Guard2</Filter>
+    </ClCompile>
+    <ClCompile Include="Guard3.cpp">
+      <Filter>GameObject\Enemies\Guards\Guard3</Filter>
+    </ClCompile>
+    <ClCompile Include="Apple.cpp">
+      <Filter>GameObject\Apple</Filter>
+    </ClCompile>
+    <ClCompile Include="JarThrower.cpp">
+      <Filter>GameObject\Enemies\CivilianEnemies\JarThrower</Filter>
+    </ClCompile>
+    <ClCompile Include="Swordsman.cpp">
+      <Filter>GameObject\Enemies\CivilianEnemies\Swordsman</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>GameObject\Enemies\Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>FrameWork\TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Rod.cpp">
+      <Filter>GameObject\Rod</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>GameObject\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Lamp.cpp">
+      <Filter>GameObject\Items\Lamp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ruby.cpp">
+      <Filter>GameObject\Items\Ruby</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>GameObject\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueHeart.cpp">
+      <Filter>GameObject\Items\BlueHeart</Filter>
+    </ClCompile>
+    <ClCompile Include="GenieFace.cpp">
+      <Filter>GameObject\Items\GenieFace</Filter>
+    </ClCompile>
+    <ClCompile Include="GenieJar.cpp">
+      <Filter>GameObject\Items\GenieJar</Filter>
+    </ClCompile>
+    <ClCompile Include="Theft.cpp">
+      <Filter>GameObject\Enemies\CivilianEnemies\Theft</Filter>
+    </ClCompile>
+    <ClCompile Include="Fire.cpp">
+      <Filter>GameObject\Enemies\Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="FireCarpet.cpp">
+      <Filter>GameObject\FireCarpet</Filter>
+    </ClCompile>
+    <ClCompile Include="FallingGround.cpp">
+      <Filter>GameObject\Ground\FallingGround</Filter>
+    </ClCompile>
+    <ClCompile Include="Quadnode.cpp">
+      <Filter>FrameWork\QuadTree\QuadNode</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>GameObject\Enemies\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Star.cpp">
+      <Filter>GameObject\Star</Filter>
+    </ClCompile>
+    <ClCompile Include="BloodBar.cpp">
+      <Filter>GameObject\BloodBar</Filter>
+    </ClCompile>
+    <ClCompile Include="AladdinFace.cpp">
+      <Filter>GameObject\Items\AladdinFace</Filter>
+    </ClCompile>
+    <ClCompile Include="Jar.cpp">
+      <Filter>GameObject\Enemies\CivilianEnemies\Jar</Filter>
+    </ClCompile>
+    <ClCompile Include="Spittle.cpp">
+      <Filter>GameObject\Camel\Spittle</Filter>
+    </ClCompile>
+    <ClCompile Include="AbuItem.cpp">
+      <Filter>GameObject\Items\AbuItem</Filter>
+    </ClCompile>
+    <ClCompile Include="Abu.cpp">
+      <Filter>GameObject\Abu</Filter>
+    </ClCompile>
+    <ClCompile Include="Bird.cpp">
+      <Filter>GameObject\Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="Knives.cpp">
+      <Filter>GameObject\Knives</Filter>
+    </ClCompile>
+    <ClCompile Include="Genie.cpp">
+      <Filter>GameObject\Genie</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>FrameWork\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>FrameWork\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveFile.cpp">
+      <Filter>FrameWork\Sound\WaveFile</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSound.cpp">
+      <Filter>FrameWork\Sound\GameSound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>FrameWork\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Aladdin.h">
+      <Filter>GameObject\Aladdin</Filter>
+    </ClInclude>
+    <ClInclude Include="Directx.h">
+      <Filter>FrameWork\Directx</Filter>
+    </ClInclude>
+    <ClInclude Include="readXML.h">
+      <Filter>FrameWork\ReadXML</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>FrameWork\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>FrameWork\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Quadtree.h">
+      <Filter>FrameWork\QuadTree</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject.h">
+      <Filter>GameObject\BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>FrameWork\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>GameObject\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>FrameWork\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Rope.h">
+      <Filter>GameObject\Rope</Filter>
+    </ClInclude>
+    <ClInclude Include="CollarBeam.h">
+      <Filter>GameObject\CollarBeam</Filter>
+    </ClInclude>
+    <ClInclude Include="Camel.h">
+      <Filter>GameObject\Camel</Filter>
+    </ClInclude>
+    <ClInclude Include="trace.h">
+      <Filter>FrameWork\Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="Guard1.h">
+      <Filter>GameObject\Enemies\Guards\Guard1</Filter>
+    </ClInclude>
+    <ClInclude Include="Guard2.h">
+      <Filter>GameObject\Enemies\Guards\Guard2</Filter>
+    </ClInclude>
+    <ClInclude Include="Guard3.h">
+      <Filter>GameObject\Enemies\Guards\Guard3</Filter>
+    </ClInclude>
+    <ClInclude Include="Apple.h">
+      <Filter>GameObject\Apple</Filter>
+    </ClInclude>
+    <ClInclude Include="JarThrower.h">
+      <Filter>GameObject\Enemies\CivilianEnemies\JarThrower</Filter>
+    </ClInclude>
+    <ClInclude Include="Swordsman.h">
+      <Filter>GameObject\Enemies\CivilianEnemies\Swordsman</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>GameObject\Enemies\Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>FrameWork\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Rod.h">
+      <Filter>GameObject\Rod</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>GameObject\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Lamp.h">
+      <Filter>GameObject\Items\Lamp</Filter>
+    </ClInclude>
+    <ClInclude Include="Ruby.h">
+      <Filter>GameObject\Items\Ruby</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>GameObject\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueHeart.h">
+      <Filter>GameObject\Items\BlueHeart</Filter>
+    </ClInclude>
+    <ClInclude Include="GenieFace.h">
+      <Filter>GameObject\Items\GenieFace</Filter>
+    </ClInclude>
+    <ClInclude Include="GenieJar.h">
+      <Filter>GameObject\Items\GenieJar</Filter>
+    </ClInclude>
+    <ClInclude Include="Theft.h">
+      <Filter>GameObject\Enemies\CivilianEnemies\Theft</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire.h">
+      <Filter>GameObject\Enemies\Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="FireCarpet.h">
+      <Filter>GameObject\FireCarpet</Filter>
+    </ClInclude>
+    <ClInclude Include="FallingGround.h">
+      <Filter>GameObject\Ground\FallingGround</Filter>
+    </ClInclude>
+    <ClInclude Include="Quadnode.h">
+      <Filter>FrameWork\QuadTree\QuadNode</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>GameObject\Enemies\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Star.h">
+      <Filter>GameObject\Star</Filter>
+    </ClInclude>
+    <ClInclude Include="BloodBar.h">
+      <Filter>GameObject\BloodBar</Filter>
+    </ClInclude>
+    <ClInclude Include="AladdinFace.h">
+      <Filter>GameObject\Items\AladdinFace</Filter>
+    </ClInclude>
+    <ClInclude Include="Jar.h">
+      <Filter>GameObject\Enemies\CivilianEnemies\Jar</Filter>
+    </ClInclude>
+    <ClInclude Include="Spittle.h">
+      <Filter>GameObject\Camel\Spittle</Filter>
+    </ClInclude>
+    <ClInclude Include="AbuItem.h">
+      <Filter>GameObject\Items\AbuItem</Filter>
+    </ClInclude>
+    <ClInclude Include="Abu.h">
+      <Filter>GameObject\Abu</Filter>
+    </ClInclude>
+    <ClInclude Include="Bird.h">
+      <Filter>GameObject\Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="Knives.h">
+      <Filter>GameObject\Knives</Filter>
+    </ClInclude>
+    <ClInclude Include="Genie.h">
+      <Filter>GameObject\Genie</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>FrameWork\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>FrameWork\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveFile.h">
+      <Filter>FrameWork\Sound\WaveFile</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSound.h">
+      <Filter>FrameWork\Sound\GameSound</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,111 @@
+<SpriteMapping>
+	<Texture Path="Genesis%2032X%20SCD%20-%20Aladdin%20-%20Apple.png" Name="Genesis 32X SCD - Aladdin - Aladdin.png"/>
+	<TransparentColors/>
+	<Sprites>
+		<Sprite Name="Sprite0" Id="0">
+			<Coordinates>
+				<X>373</X>
+				<Y>25</Y>
+				<Width>7</Width>
+				<Height>6</Height>
+			</Coordinates>
+		</Sprite>
+		<Sprite Name="Sprite1" Id="1">
+			<Coordinates>
+				<X>394</X>
+				<Y>23</Y>
+				<Width>7</Width>
+				<Height>10</Height>
+			</Coordinates>
+		</Sprite>
+		<Sprite Name="Sprite2" Id="2">
+			<Coordinates>
+				<X>414</X>
+				<Y>18</Y>
+				<Width>20</Width>
+				<Height>18</Height>
+			</Coordinates>
+		</Sprite>
+		<Sprite Name="Sprite3" Id="3">
+			<Coordinates>
+				<X>444</X>
+				<Y>17</Y>
+				<Width>29</Width>
+				<Height>22</Height>
+			</Coordinates>
+		</Sprite>
+		<Sprite Name="Sprite4" Id="4">
+			<Coordinates>
+				<X>485</X>
+				<Y>14</Y>
+				<Width>31</Width>
+				<Height>25</Height>
+			</Coordinates>
+		</Sprite>
+		<Sprite Name="Sprite5" Id="5">
+			<Coordinates>
+				<X>532</X>
+				<Y>13</Y>
+				<Width>30</Width>
+				<Height>27</Height>
+			</Coordinates>
+		</Sprite>
+    <Sprite Name="Sprite6" Id="6">
+      <Coordinates>
+        <X>598</X>
+        <Y>18</Y>
+        <Width>20</Width>
+        <Height>26</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite7" Id="7">
+      <Coordinates>
+        <X>639</X>
+        <Y>23</Y>
+        <Width>14</Width>
+        <Height>4</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite8" Id="8">
+      <Coordinates>
+        <X>665</X>
+        <Y>22</Y>
+        <Width>14</Width>
+        <Height>5</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite9" Id="9">
+      <Coordinates>
+        <X>696</X>
+        <Y>19</Y>
+        <Width>13</Width>
+        <Height>10</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite10" Id="10">
+      <Coordinates>
+        <X>728</X>
+        <Y>19</Y>
+        <Width>13</Width>
+        <Height>10</Height>
+      </Coordinates>
+    </Sprite>
+	</Sprites>
+	<Animations>
+		<Animation Name="Animation0" FrameRate="20" Loop="True" PingPong="True">
+			<Frames>
+				<Frame SpriteID="0" OffSetX="3" OffSetY="3" />
+				<Frame SpriteID="1" OffSetX="3" OffSetY="5" />
+				<Frame SpriteID="2" OffSetX="10" OffSetY="9" />
+				<Frame SpriteID="3" OffSetX="14" OffSetY="11" />
+				<Frame SpriteID="4" OffSetX="15" OffSetY="12" />
+				<Frame SpriteID="5" OffSetX="15" OffSetY="13" />
+        <Frame SpriteID="6" OffSetX="7" OffSetY="6" />
+        <Frame SpriteID="7" OffSetX="7" OffSetY="4" />
+        <Frame SpriteID="8" OffSetX="7" OffSetY="0" />
+        <Frame SpriteID="9" OffSetX="6" OffSetY="5" />
+        <Frame SpriteID="10" OffSetX="6" OffSetY="5" />
+			</Frames>
+		</Animation>
+	</Animations>
+</SpriteMapping>

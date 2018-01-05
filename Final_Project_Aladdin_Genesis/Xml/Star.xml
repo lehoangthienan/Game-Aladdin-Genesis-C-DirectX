@@ -1,0 +1,39 @@
+﻿<SpriteMapping>
+  <Texture Path="..\Genesis%2032X%20SCD%20-%20Aladdin%20-%20Jafar.png" Name="Genesis 32X SCD - Aladdin - Jafar.png" />
+  <TransparentColors />
+  <Sprites>
+    <Sprite Name="Sprite24" Id="24">
+      <Coordinates>
+        <X>198</X>
+        <Y>226</Y>
+        <Width>28</Width>
+        <Height>14</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite25" Id="25">
+      <Coordinates>
+        <X>238</X>
+        <Y>224</Y>
+        <Width>24</Width>
+        <Height>16</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite26" Id="26">
+      <Coordinates>
+        <X>270</X>
+        <Y>225</Y>
+        <Width>26</Width>
+        <Height>15</Height>
+      </Coordinates>
+    </Sprite>
+  </Sprites>
+  <Animations>
+    <Animation Name="Animation0" FrameRate="20" Loop="True" PingPong="True">
+      <Frames>
+        <Frame SpriteId="24" OffSetX="14" OffSetY="6" />
+        <Frame SpriteId="25" OffSetX="11" OffSetY="10" />
+        <Frame SpriteId="26" OffSetX="14" OffSetY="7" />
+      </Frames>
+    </Animation>
+  </Animations>
+</SpriteMapping>

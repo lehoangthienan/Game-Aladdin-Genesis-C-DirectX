@@ -1,0 +1,147 @@
+﻿<SpriteMapping>
+  <Texture Path="Genesis%2032X%20SCD%20-%20Aladdin%20-%20Enemy Explosions.png" Name="Genesis 32X SCD - Aladdin - Enemy Explosions.png"/>
+  <TransparentColors/>
+  <Sprites>
+    <Sprite Name="Sprite0" Id="0">
+      <Coordinates>
+        <X>8</X>
+        <Y>180</Y>
+        <Width>26</Width>
+        <Height>24</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite1" Id="1">
+      <Coordinates>
+        <X>48</X>
+        <Y>155</Y>
+        <Width>60</Width>
+        <Height>49</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite2" Id="2">
+      <Coordinates>
+        <X>120</X>
+        <Y>118</Y>
+        <Width>81</Width>
+        <Height>86</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite3" Id="3">
+      <Coordinates>
+        <X>208</X>
+        <Y>123</Y>
+        <Width>83</Width>
+        <Height>81</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite4" Id="4">
+      <Coordinates>
+        <X>304</X>
+        <Y>124</Y>
+        <Width>82</Width>
+        <Height>80</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite5" Id="5">
+      <Coordinates>
+        <X>400</X>
+        <Y>128</Y>
+        <Width>83</Width>
+        <Height>76</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite6" Id="6">
+      <Coordinates>
+        <X>496</X>
+        <Y>131</Y>
+        <Width>83</Width>
+        <Height>73</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite7" Id="7">
+      <Coordinates>
+        <X>8</X>
+        <Y>214</Y>
+        <Width>80</Width>
+        <Height>70</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite8" Id="8">
+      <Coordinates>
+        <X>96</X>
+        <Y>217</Y>
+        <Width>82</Width>
+        <Height>67</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite9" Id="9">
+      <Coordinates>
+        <X>192</X>
+        <Y>222</Y>
+        <Width>83</Width>
+        <Height>62</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite10" Id="10">
+      <Coordinates>
+        <X>288</X>
+        <Y>231</Y>
+        <Width>81</Width>
+        <Height>53</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite11" Id="11">
+      <Coordinates>
+        <X>376</X>
+        <Y>236</Y>
+        <Width>77</Width>
+        <Height>48</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite12" Id="12">
+      <Coordinates>
+        <X>464</X>
+        <Y>243</Y>
+        <Width>53</Width>
+        <Height>42</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite13" Id="13">
+      <Coordinates>
+        <X>528</X>
+        <Y>244</Y>
+        <Width>42</Width>
+        <Height>39</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite14" Id="14">
+      <Coordinates>
+        <X>584</X>
+        <Y>251</Y>
+        <Width>44</Width>
+        <Height>33</Height>
+      </Coordinates>
+    </Sprite>
+  </Sprites>
+  <Animations>
+    <Animation Name="Animation0" FrameRate="20" Loop="True" PingPong="True">
+      <Frames>
+        <Frame SpriteID="0" OffSetX="13" OffSetY="12" />
+        <Frame SpriteID="1" OffSetX="30" OffSetY="24" />
+        <Frame SpriteID="2" OffSetX="40" OffSetY="43" />
+        <Frame SpriteID="3" OffSetX="41" OffSetY="40" />
+        <Frame SpriteID="4" OffSetX="41" OffSetY="40" />
+        <Frame SpriteID="5" OffSetX="41" OffSetY="38" />
+        <Frame SpriteID="6" OffSetX="41" OffSetY="36" />
+        <Frame SpriteID="7" OffSetX="40" OffSetY="35" />
+        <Frame SpriteID="8" OffSetX="41" OffSetY="33" />
+        <Frame SpriteID="9" OffSetX="41" OffSetY="31" />
+        <Frame SpriteID="10" OffSetX="40" OffSetY="26" />
+        <Frame SpriteID="11" OffSetX="38" OffSetY="24" />
+        <Frame SpriteID="12" OffSetX="26" OffSetY="21" />
+        <Frame SpriteID="13" OffSetX="21" OffSetY="19" />
+        <Frame SpriteID="14" OffSetX="22" OffSetY="16" />
+      </Frames>
+    </Animation>
+  </Animations>
+</SpriteMapping>

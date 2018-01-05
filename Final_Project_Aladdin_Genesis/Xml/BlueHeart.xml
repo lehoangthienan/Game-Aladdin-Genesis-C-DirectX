@@ -1,0 +1,84 @@
+﻿<SpriteMapping>
+  <Texture Path="Genesis%2032X%20SCD%20-%20Aladdin%20-%20Items.png" Name="Genesis 32X SCD - Aladdin - Items.png"/>
+  <TransparentColors/>
+  <Sprites>
+    <Sprite Name="Sprite0" Id="0">
+      <Coordinates>
+        <X>343</X>
+        <Y>171</Y>
+        <Width>19</Width>
+        <Height>24</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite1" Id="1">
+      <Coordinates>
+        <X>366</X>
+        <Y>173</Y>
+        <Width>17</Width>
+        <Height>23</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite2" Id="2">
+      <Coordinates>
+        <X>387</X>
+        <Y>175</Y>
+        <Width>16</Width>
+        <Height>21</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite3" Id="3">
+      <Coordinates>
+        <X>406</X>
+        <Y>175</Y>
+        <Width>17</Width>
+        <Height>21</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite4" Id="4">
+      <Coordinates>
+        <X>426</X>
+        <Y>173</Y>
+        <Width>19</Width>
+        <Height>23</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite5" Id="5">
+      <Coordinates>
+        <X>448</X>
+        <Y>174</Y>
+        <Width>17</Width>
+        <Height>23</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite6" Id="6">
+      <Coordinates>
+        <X>467</X>
+        <Y>176</Y>
+        <Width>16</Width>
+        <Height>21</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite7" Id="7">
+      <Coordinates>
+        <X>486</X>
+        <Y>176</Y>
+        <Width>17</Width>
+        <Height>21</Height>
+      </Coordinates>
+    </Sprite>
+  </Sprites>
+  <Animations>
+    <Animation Name="Animation0" FrameRate="20" Loop="True" PingPong="True">
+      <Frames>
+        <Frame SpriteID="0" OffSetX="9" OffSetY="12" />
+        <Frame SpriteID="1" OffSetX="8" OffSetY="11" />
+        <Frame SpriteID="2" OffSetX="8" OffSetY="10" />
+        <Frame SpriteID="3" OffSetX="8" OffSetY="10" />
+        <Frame SpriteID="4" OffSetX="9" OffSetY="11" />
+        <Frame SpriteID="5" OffSetX="8" OffSetY="11" />
+        <Frame SpriteID="6" OffSetX="8" OffSetY="10" />
+        <Frame SpriteID="7" OffSetX="8" OffSetY="10" />
+      </Frames>
+    </Animation>
+  </Animations>
+</SpriteMapping>

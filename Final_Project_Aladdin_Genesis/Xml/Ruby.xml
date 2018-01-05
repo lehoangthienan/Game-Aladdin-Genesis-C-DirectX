@@ -1,0 +1,102 @@
+<SpriteMapping>
+  <Texture Path="Genesis%2032X%20SCD%20-%20Aladdin%20-%20Apple.png" Name="Genesis 32X SCD - Aladdin - Aladdin.png"/>
+  <TransparentColors/>
+  <Sprites>
+    <Sprite Name="Sprite0" Id="0">
+      <Coordinates>
+        <X>340</X>
+        <Y>111</Y>
+        <Width>17</Width>
+        <Height>16</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite1" Id="1">
+      <Coordinates>
+        <X>363</X>
+        <Y>111</Y>
+        <Width>17</Width>
+        <Height>16</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite2" Id="2">
+      <Coordinates>
+        <X>386</X>
+        <Y>111</Y>
+        <Width>17</Width>
+        <Height>16</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite3" Id="3">
+      <Coordinates>
+        <X>409</X>
+        <Y>111</Y>
+        <Width>17</Width>
+        <Height>16</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite4" Id="4">
+      <Coordinates>
+        <X>432</X>
+        <Y>110</Y>
+        <Width>17</Width>
+        <Height>16</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite5" Id="5">
+      <Coordinates>
+        <X>454</X>
+        <Y>105</Y>
+        <Width>32</Width>
+        <Height>25</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite6" Id="6">
+      <Coordinates>
+        <X>492</X>
+        <Y>108</Y>
+        <Width>23</Width>
+        <Height>20</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite7" Id="7">
+      <Coordinates>
+        <X>522</X>
+        <Y>112</Y>
+        <Width>17</Width>
+        <Height>16</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite8" Id="8">
+      <Coordinates>
+        <X>545</X>
+        <Y>112</Y>
+        <Width>17</Width>
+        <Height>16</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite9" Id="9">
+      <Coordinates>
+        <X>574</X>
+        <Y>112</Y>
+        <Width>16</Width>
+        <Height>16</Height>
+      </Coordinates>
+    </Sprite>
+  </Sprites>
+  <Animations>
+    <Animation Name="Animation0" FrameRate="20" Loop="True" PingPong="True">
+      <Frames>
+        <Frame SpriteID="0" OffSetX="8" OffSetY="8" />
+        <Frame SpriteID="1" OffSetX="8" OffSetY="8" />
+        <Frame SpriteID="2" OffSetX="8" OffSetY="8" />
+        <Frame SpriteID="3" OffSetX="8" OffSetY="8" />
+        <Frame SpriteID="4" OffSetX="8" OffSetY="9" />
+        <Frame SpriteID="5" OffSetX="14" OffSetY="14" />
+        <Frame SpriteID="6" OffSetX="8" OffSetY="12" />
+        <Frame SpriteID="7" OffSetX="8" OffSetY="8" />
+        <Frame SpriteID="8" OffSetX="8" OffSetY="8" />
+        <Frame SpriteID="9" OffSetX="8" OffSetY="8" />
+      </Frames>
+    </Animation>
+  </Animations>
+</SpriteMapping>

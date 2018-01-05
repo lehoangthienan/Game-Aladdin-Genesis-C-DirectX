@@ -1,0 +1,7 @@
+﻿  Game.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\users\vinh muoi\desktop\15520693_15520133_15520011\final_project_aladdin_genesis\final_project_aladdin_genesis\game.cpp(12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\vinh muoi\desktop\15520693_15520133_15520011\final_project_aladdin_genesis\final_project_aladdin_genesis\game.cpp(17): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\vinh muoi\desktop\15520693_15520133_15520011\final_project_aladdin_genesis\final_project_aladdin_genesis\game.cpp(49): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+  Final_Project_Aladdin_Genesis.vcxproj -> C:\Users\Vinh Muoi\Desktop\15520693_15520133_15520011\Final_Project_Aladdin_Genesis\Debug\Final_Project_Aladdin_Genesis.exe
+  Final_Project_Aladdin_Genesis.vcxproj -> C:\Users\Vinh Muoi\Desktop\15520693_15520133_15520011\Final_Project_Aladdin_Genesis\Debug\Final_Project_Aladdin_Genesis.pdb (Full PDB)

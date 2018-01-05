@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{122E5701-94D1-46B9-8D37-A4EFB66375F2}</ProjectGuid>
+    <RootNamespace>Final_Project_Aladdin_Genesis</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;d3d9.lib;d3dx9.lib;dinput8.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Abu.cpp" />
+    <ClCompile Include="AbuItem.cpp" />
+    <ClCompile Include="Aladdin.cpp" />
+    <ClCompile Include="AladdinFace.cpp" />
+    <ClCompile Include="Apple.cpp" />
+    <ClCompile Include="Bird.cpp" />
+    <ClCompile Include="BloodBar.cpp" />
+    <ClCompile Include="BlueHeart.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="FallingGround.cpp" />
+    <ClCompile Include="Fire.cpp" />
+    <ClCompile Include="FireCarpet.cpp" />
+    <ClCompile Include="GameSound.cpp" />
+    <ClCompile Include="Genie.cpp" />
+    <ClCompile Include="GenieFace.cpp" />
+    <ClCompile Include="GenieJar.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="Knives.cpp" />
+    <ClCompile Include="Lamp.cpp" />
+    <ClCompile Include="Rod.cpp" />
+    <ClCompile Include="Ruby.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="Spittle.cpp" />
+    <ClCompile Include="Camel.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CollarBeam.cpp" />
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="Directx.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="BaseObject.cpp" />
+    <ClCompile Include="Ground.cpp" />
+    <ClCompile Include="Guard1.cpp" />
+    <ClCompile Include="Guard2.cpp" />
+    <ClCompile Include="Guard3.cpp" />
+    <ClCompile Include="Jar.cpp" />
+    <ClCompile Include="JarThrower.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="Quadnode.cpp" />
+    <ClCompile Include="Quadtree.cpp" />
+    <ClCompile Include="readXML.cpp" />
+    <ClCompile Include="Rope.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="Star.cpp" />
+    <ClCompile Include="Sword.cpp" />
+    <ClCompile Include="Swordsman.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="Theft.cpp" />
+    <ClCompile Include="trace.cpp" />
+    <ClCompile Include="WaveFile.cpp" />
+    <ClCompile Include="winmain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Abu.h" />
+    <ClInclude Include="AbuItem.h" />
+    <ClInclude Include="Aladdin.h" />
+    <ClInclude Include="AladdinFace.h" />
+    <ClInclude Include="Apple.h" />
+    <ClInclude Include="Bird.h" />
+    <ClInclude Include="BloodBar.h" />
+    <ClInclude Include="BlueHeart.h" />
+    <ClInclude Include="Boss.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="FallingGround.h" />
+    <ClInclude Include="Fire.h" />
+    <ClInclude Include="FireCarpet.h" />
+    <ClInclude Include="GameSound.h" />
+    <ClInclude Include="Genie.h" />
+    <ClInclude Include="GenieFace.h" />
+    <ClInclude Include="GenieJar.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="Knives.h" />
+    <ClInclude Include="Lamp.h" />
+    <ClInclude Include="Rod.h" />
+    <ClInclude Include="Ruby.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="Spittle.h" />
+    <ClInclude Include="Camel.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CollarBeam.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="Directx.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="BaseObject.h" />
+    <ClInclude Include="Ground.h" />
+    <ClInclude Include="Guard1.h" />
+    <ClInclude Include="Guard2.h" />
+    <ClInclude Include="Guard3.h" />
+    <ClInclude Include="Jar.h" />
+    <ClInclude Include="JarThrower.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="Quadnode.h" />
+    <ClInclude Include="Quadtree.h" />
+    <ClInclude Include="readXML.h" />
+    <ClInclude Include="Rope.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="Star.h" />
+    <ClInclude Include="Sword.h" />
+    <ClInclude Include="Swordsman.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="Theft.h" />
+    <ClInclude Include="trace.h" />
+    <ClInclude Include="WaveFile.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

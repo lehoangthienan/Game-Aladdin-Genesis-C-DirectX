@@ -1,0 +1,66 @@
+﻿<SpriteMapping>
+  <Texture Path="Genesis%2032X%20SCD%20-%20Aladdin%20-%20Enemy Die.png" Name="Genesis 32X SCD - Aladdin - Enemy Die.png"/>
+  <TransparentColors/>
+  <Sprites>
+    <Sprite Name="Sprite0" Id="0">
+      <Coordinates>
+        <X>376</X>
+        <Y>13</Y>
+        <Width>32</Width>
+        <Height>28</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite1" Id="1">
+      <Coordinates>
+        <X>416</X>
+        <Y>19</Y>
+        <Width>24</Width>
+        <Height>22</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite2" Id="2">
+      <Coordinates>
+        <X>448</X>
+        <Y>26</Y>
+        <Width>20</Width>
+        <Height>15</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite3" Id="3">
+      <Coordinates>
+        <X>480</X>
+        <Y>29</Y>
+        <Width>15</Width>
+        <Height>12</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite4" Id="4">
+      <Coordinates>
+        <X>504</X>
+        <Y>34</Y>
+        <Width>8</Width>
+        <Height>7</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite5" Id="5">
+      <Coordinates>
+        <X>529</X>
+        <Y>45</Y>
+        <Width>4</Width>
+        <Height>4</Height>
+      </Coordinates>
+    </Sprite>
+  </Sprites>
+  <Animations>
+    <Animation Name="Animation0" FrameRate="20" Loop="True" PingPong="True">
+      <Frames>
+        <Frame SpriteID="0" OffSetX="0" OffSetY="0" />
+        <Frame SpriteID="1" OffSetX="0" OffSetY="0" />
+        <Frame SpriteID="2" OffSetX="0" OffSetY="0" />
+        <Frame SpriteID="3" OffSetX="0" OffSetY="0" />
+        <Frame SpriteID="4" OffSetX="0" OffSetY="0" />
+        <Frame SpriteID="5" OffSetX="0" OffSetY="0" />
+      </Frames>
+    </Animation>
+  </Animations>
+</SpriteMapping>

@@ -1,0 +1,219 @@
+﻿<SpriteMapping>
+  <Texture Path="Genesis%2032X%20SCD%20-%20Aladdin%20-%20Guards.png" Name="Genesis 32X SCD - Aladdin - Guards.png" />
+  <TransparentColors />
+  <Sprites>
+    <Sprite Name="Sprite0" Id="0">
+      <Coordinates>
+        <X>2</X>
+        <Y>9</Y>
+        <Width>45</Width>
+        <Height>67</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite1" Id="1">
+      <Coordinates>
+        <X>53</X>
+        <Y>10</Y>
+        <Width>45</Width>
+        <Height>66</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite2" Id="2">
+      <Coordinates>
+        <X>109</X>
+        <Y>11</Y>
+        <Width>46</Width>
+        <Height>65</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite3" Id="3">
+      <Coordinates>
+        <X>164</X>
+        <Y>11</Y>
+        <Width>45</Width>
+        <Height>65</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite4" Id="4">
+      <Coordinates>
+        <X>214</X>
+        <Y>10</Y>
+        <Width>37</Width>
+        <Height>66</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite5" Id="5">
+      <Coordinates>
+        <X>259</X>
+        <Y>9</Y>
+        <Width>43</Width>
+        <Height>67</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite6" Id="6">
+      <Coordinates>
+        <X>308</X>
+        <Y>9</Y>
+        <Width>50</Width>
+        <Height>67</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite7" Id="7">
+      <Coordinates>
+        <X>363</X>
+        <Y>11</Y>
+        <Width>36</Width>
+        <Height>65</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite8" Id="8">
+      <Coordinates>
+        <X>9</X>
+        <Y>82</Y>
+        <Width>37</Width>
+        <Height>74</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite9" Id="9">
+      <Coordinates>
+        <X>53</X>
+        <Y>96</Y>
+        <Width>49</Width>
+        <Height>60</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite10" Id="10">
+      <Coordinates>
+        <X>109</X>
+        <Y>98</Y>
+        <Width>92</Width>
+        <Height>58</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite11" Id="11">
+      <Coordinates>
+        <X>203</X>
+        <Y>97</Y>
+        <Width>86</Width>
+        <Height>59</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite12" Id="12">
+      <Coordinates>
+        <X>292</X>
+        <Y>96</Y>
+        <Width>77</Width>
+        <Height>60</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite13" Id="13">
+      <Coordinates>
+        <X>382</X>
+        <Y>96</Y>
+        <Width>41</Width>
+        <Height>60</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite14" Id="14">
+      <Coordinates>
+        <X>8</X>
+        <Y>175</Y>
+        <Width>44</Width>
+        <Height>58</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite15" Id="15">
+      <Coordinates>
+        <X>59</X>
+        <Y>185</Y>
+        <Width>40</Width>
+        <Height>48</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite16" Id="16">
+      <Coordinates>
+        <X>114</X>
+        <Y>160</Y>
+        <Width>39</Width>
+        <Height>73</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite17" Id="17">
+      <Coordinates>
+        <X>161</X>
+        <Y>165</Y>
+        <Width>41</Width>
+        <Height>68</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite18" Id="18">
+      <Coordinates>
+        <X>210</X>
+        <Y>171</Y>
+        <Width>46</Width>
+        <Height>62</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite19" Id="19">
+      <Coordinates>
+        <X>268</X>
+        <Y>162</Y>
+        <Width>42</Width>
+        <Height>71</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite20" Id="20">
+      <Coordinates>
+        <X>318</X>
+        <Y>184</Y>
+        <Width>47</Width>
+        <Height>49</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite21" Id="21">
+      <Coordinates>
+        <X>378</X>
+        <Y>185</Y>
+        <Width>40</Width>
+        <Height>48</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite22" Id="22">
+      <Coordinates>
+        <X>433</X>
+        <Y>166</Y>
+        <Width>45</Width>
+        <Height>67</Height>
+      </Coordinates>
+    </Sprite>
+  </Sprites>
+  <Animations>
+    <Animation Name="Animation0" FrameRate="20" Loop="True" PingPong="True">
+      <Frames>
+        <Frame SpriteId="0" OffSetX="20" OffSetY="67" />
+        <Frame SpriteId="1" OffSetX="23" OffSetY="66" />
+        <Frame SpriteId="2" OffSetX="24" OffSetY="65" />
+        <Frame SpriteId="3" OffSetX="20" OffSetY="65" />
+        <Frame SpriteId="4" OffSetX="26" OffSetY="66" />
+        <Frame SpriteId="5" OffSetX="27" OffSetY="67" />
+        <Frame SpriteId="6" OffSetX="30" OffSetY="67" />
+        <Frame SpriteId="7" OffSetX="18" OffSetY="65" />
+        <Frame SpriteId="8" OffSetX="20" OffSetY="74" />
+        <Frame SpriteId="9" OffSetX="18" OffSetY="60" />
+        <Frame SpriteId="10" OffSetX="71" OffSetY="58" />
+        <Frame SpriteId="11" OffSetX="66" OffSetY="59" />
+        <Frame SpriteId="12" OffSetX="55" OffSetY="60" />
+        <Frame SpriteId="13" OffSetX="24" OffSetY="60" />
+        <Frame SpriteId="14" OffSetX="24" OffSetY="58" />
+        <Frame SpriteId="15" OffSetX="21" OffSetY="48" />
+        <Frame SpriteId="16" OffSetX="19" OffSetY="73" />
+        <Frame SpriteId="17" OffSetX="20" OffSetY="68" />
+        <Frame SpriteId="18" OffSetX="20" OffSetY="62" />
+        <Frame SpriteId="19" OffSetX="28" OffSetY="71" />
+        <Frame SpriteId="20" OffSetX="27" OffSetY="49" />
+        <Frame SpriteId="21" OffSetX="21" OffSetY="48" />
+        <Frame SpriteId="22" OffSetX="19" OffSetY="67" />
+      </Frames>
+    </Animation>
+  </Animations>
+</SpriteMapping>

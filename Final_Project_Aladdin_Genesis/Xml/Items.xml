@@ -1,0 +1,57 @@
+<SpriteMapping>
+	<Texture Path="Genesis%2032X%20SCD%20-%20Aladdin%20-%20Rod.png" Name="Genesis 32X SCD - Aladdin - Rod.png"/>
+	<TransparentColors/>
+	<Sprites>
+		<Sprite Name="Sprite0" Id="0">
+			<Coordinates>
+				<X>16</X>
+				<Y>9</Y>
+				<Width>42</Width>
+				<Height>21</Height>
+			</Coordinates>
+		</Sprite>
+		<Sprite Name="Sprite1" Id="1">
+			<Coordinates>
+				<X>89</X>
+				<Y>22</Y>
+				<Width>40</Width>
+				<Height>17</Height>
+			</Coordinates>
+		</Sprite>
+		<Sprite Name="Sprite2" Id="2">
+			<Coordinates>
+				<X>163</X>
+				<Y>2</Y>
+				<Width>40</Width>
+				<Height>28</Height>
+			</Coordinates>
+		</Sprite>
+		<Sprite Name="Sprite3" Id="3">
+			<Coordinates>
+				<X>237</X>
+				<Y>14</Y>
+				<Width>44</Width>
+				<Height>15</Height>
+			</Coordinates>
+		</Sprite>
+		<Sprite Name="Sprite4" Id="4">
+			<Coordinates>
+				<X>312</X>
+				<Y>9</Y>
+				<Width>43</Width>
+				<Height>22</Height>
+			</Coordinates>
+		</Sprite>
+	</Sprites>
+	<Animations>
+		<Animation Name="Animation0" FrameRate="20" Loop="True" PingPong="True">
+			<Frames>
+				<Frame SpriteID="0" OffSetX="3" OffSetY="4" />
+				<Frame SpriteID="1" OffSetX="4" OffSetY="2" />
+				<Frame SpriteID="2" OffSetX="3" OffSetY="23" />
+				<Frame SpriteID="3" OffSetX="3" OffSetY="9" />
+				<Frame SpriteID="4" OffSetX="3" OffSetY="17" />
+			</Frames>
+		</Animation>
+	</Animations>
+</SpriteMapping>

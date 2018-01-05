@@ -1,0 +1,21 @@
+﻿<SpriteMapping>
+  <Texture Path="Genesis%2032X%20SCD%20-%20Aladdin%20-%20Falling Ground.png" Name="Genesis 32X SCD - Aladdin - Falling Ground.png"/>
+  <TransparentColors/>
+  <Sprites>
+    <Sprite Name="Sprite0" Id="0">
+      <Coordinates>
+        <X>18</X>
+        <Y>16</Y>
+        <Width>32</Width>
+        <Height>15</Height>
+      </Coordinates>
+    </Sprite>
+  </Sprites>
+  <Animations>
+    <Animation Name="Animation0" FrameRate="20" Loop="True" PingPong="True">
+      <Frames>
+        <Frame SpriteID="0" OffSetX="0" OffSetY="0" />
+      </Frames>
+    </Animation>
+  </Animations>
+</SpriteMapping>

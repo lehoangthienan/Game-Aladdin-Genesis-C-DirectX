@@ -1,0 +1,48 @@
+﻿<SpriteMapping>
+  <Texture Path="Genesis%2032X%20SCD%20-%20Aladdin%20-%20Apple.png" Name="Genesis 32X SCD - Aladdin - Aladdin.png"/>
+  <TransparentColors/>
+  <Sprites>
+    <Sprite Name="Sprite0" Id="0">
+      <Coordinates>
+        <X>13</X>
+        <Y>14</Y>
+        <Width>6</Width>
+        <Height>10</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite1" Id="1">
+      <Coordinates>
+        <X>43</X>
+        <Y>10</Y>
+        <Width>18</Width>
+        <Height>19</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite2" Id="2">
+      <Coordinates>
+        <X>90</X>
+        <Y>12</Y>
+        <Width>20</Width>
+        <Height>16</Height>
+      </Coordinates>
+    </Sprite>
+    <Sprite Name="Sprite3" Id="3">
+      <Coordinates>
+        <X>141</X>
+        <Y>11</Y>
+        <Width>17</Width>
+        <Height>13</Height>
+      </Coordinates>
+    </Sprite>
+  </Sprites>
+  <Animations>
+    <Animation Name="Animation0" FrameRate="20" Loop="True" PingPong="True">
+      <Frames>
+        <Frame SpriteID="0" OffSetX="3" OffSetY="5" />
+        <Frame SpriteID="1" OffSetX="9" OffSetY="9" />
+        <Frame SpriteID="2" OffSetX="10" OffSetY="8" />
+        <Frame SpriteID="3" OffSetX="8" OffSetY="6" />
+      </Frames>
+    </Animation>
+  </Animations>
+</SpriteMapping>
